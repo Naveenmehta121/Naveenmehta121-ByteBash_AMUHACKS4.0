@@ -35,7 +35,7 @@
 ## Team Members
 - NAVEEN KUMAR – Frontend & UX
 - AVINASH – Voice Features & Accessibility
-- MANAS SINHA – Memory & Reminder Logic
+- MANAS KUMAR – Memory & Reminder Logic
 - SANDEEP KUMAR – Future AI & Integrations
 
 ## Hashtags
