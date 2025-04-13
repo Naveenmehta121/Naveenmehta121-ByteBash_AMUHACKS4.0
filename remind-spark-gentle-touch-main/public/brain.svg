@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Brain half -->
+  <path fill="#FF3B30" d="M250 50c-66.5 0-120 53.5-120 120 0 44.8 24.3 83.7 60.2 104.4-0.1 0.5-0.2 1.1-0.2 1.6v100c0 11 9 20 20 20h80c11 0 20-9 20-20V276c0-0.5-0.1-1.1-0.2-1.6C345.7 253.7 370 214.8 370 170c0-66.5-53.5-120-120-120z"/>
+  
+  <!-- Circuit lines -->
+  <g stroke="#000" stroke-width="8" fill="none">
+    <path d="M370 170h80M50 170h80M250 50v-30M250 480v-84.4M130 276h-60v124M370 276h60v124"/>
+    <!-- Connection dots -->
+    <circle cx="370" cy="170" r="8" fill="#000"/>
+    <circle cx="130" cy="170" r="8" fill="#000"/>
+    <circle cx="250" cy="20" r="8" fill="#000"/>
+    <circle cx="250" cy="480" r="8" fill="#000"/>
+    <circle cx="70" cy="400" r="8" fill="#000"/>
+    <circle cx="430" cy="400" r="8" fill="#000"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="250" y="420" font-family="Arial Black" font-size="24" text-anchor="middle" fill="#000">
+    REMIND AI
+  </text>
+  <text x="250" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#000">
+    ROUTINE. REMIND. RELIEF.
+  </text>
+</svg> 

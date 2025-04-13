@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Brain half -->
+  <path d="M120 120 L150 100 L180 120 L210 100 L240 150 L210 180 L240 210 L210 240 L180 270 L150 240 L120 270 L90 240 L120 180 L90 150 L120 120" fill="#F13A30" />
+  
+  <!-- Circuit half -->
+  <path d="M260 120 L300 120 L300 150 C330 150 330 150 330 180 L360 180 C360 210 360 210 390 210 L390 240 C360 240 360 240 360 270 L330 270 C330 300 330 300 300 300 L300 330 L260 330" stroke="#000" stroke-width="8" fill="none" />
+  
+  <!-- Connection points -->
+  <circle cx="260" cy="120" r="10" fill="#F13A30" />
+  <circle cx="300" cy="150" r="10" fill="#000" />
+  <circle cx="360" cy="180" r="10" fill="#F13A30" />
+  <circle cx="390" cy="210" r="10" fill="#000" />
+  <circle cx="390" cy="240" r="10" fill="#F13A30" />
+  <circle cx="360" cy="270" r="10" fill="#000" />
+  <circle cx="300" cy="300" r="10" fill="#F13A30" />
+  <circle cx="260" cy="330" r="10" fill="#000" />
+  
+  <!-- Dividing line -->
+  <line x1="260" y1="100" x2="260" y2="350" stroke="#000" stroke-width="6" />
+  
+  <!-- Text: REMIND AI -->
+  <text x="250" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="36" letter-spacing="3">REMIND AI</text>
+  
+  <!-- Tagline -->
+  <text x="250" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" letter-spacing="2">ROUTINE. REMIND. RELIEF.</text>
+</svg> 

@@ -1,0 +1,124 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 359 83% 70%; /* Red color from logo */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 0 0% 15%; /* Black from logo */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 359 83% 90%; /* Lighter version of logo red */
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 359 83% 70%; /* Red color from logo */
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 359 83% 70%; /* Red color from logo */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 0 0% 15%; /* Black from logo */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 359 83% 65%; /* Darker version of logo red for dark mode */
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 359 83% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-size: 18px;
+  }
+
+  h1 {
+    @apply text-4xl font-bold tracking-tight lg:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold tracking-tight;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold tracking-tight;
+  }
+}
+
+.accessible-btn {
+  @apply px-6 py-4 text-xl rounded-xl font-medium shadow-md transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-primary/50;
+}
+
+.card-memory {
+  @apply p-5 bg-white rounded-2xl shadow-lg border-2 border-gray-100 transition-all duration-300 hover:shadow-xl;
+}
+
+.animation-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.btn-gradient {
+  @apply bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90;
+}
+
+.memory-tag {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-secondary/20 text-secondary;
+}
+
+.voice-active {
+  @apply ring-4 ring-primary animate-pulse;
+}
